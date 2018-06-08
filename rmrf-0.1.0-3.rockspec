@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "rmrf"
-version = "0.1.0-2"
+version = "0.1.0-3"
 local v = version:gsub("%-%d", "")
 -- LuaDist source
 source = {
-  tag = "0.1.0-2",
+  tag = "0.1.0-3",
   url = "git://github.com/LuaDist-testing/rmrf.git"
 }
 -- Original source
@@ -14,8 +14,8 @@ source = {
 --   tag="v"..v
 -- }
 description={
-   summary = "A `mkdir -p` module for Lua.",
-   detailed = "A `mkdir -p` module for Lua works on Windows, Linux and Mac OS.",
+   summary = "A `rm -rf` module for Lua.",
+   detailed = "A `rm -rf` module for Lua works on Windows, Linux and Mac OS.",
    homepage = "http://github.com/xpol/rmrf",
    license = "MIT"
 }
